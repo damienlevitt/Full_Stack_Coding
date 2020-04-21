@@ -69,10 +69,10 @@
       <!-- radio is a type of fillable click button for selection -->
       <h3>Are you from inside the US? Or outside the US?</h3>
       <label for="inusa">Inside: </label>
-      <input id="inusa" type="radio" name="loc" value="">
-
+      <input id="inusa" type="radio" name="loc" value="inside">
+      <!-- The values give the data name -->
       <label for="outusa">Outside: </label>
-      <input id="outusa" type="radio" name="loc" value="">
+      <input id="outusa" type="radio" name="loc" value="outside">
       <!-- assigning the same name to both of the inputs allows the radio buttons to fill and unfill in respect to one another -->
 
       <h2>How was your service?</h2>
@@ -83,9 +83,15 @@
         <option value="Okay">2</option>
         <option value="Bad">1</option>
         <!-- creates a drop down selection tab -->
+        </select>
+
+        <h2>Any other feedback?</h2>
+
+        <textarea name="Feedback" rows="8" cols="80"></textarea>
+        <!-- a textarea gives a box for entering text -->
 
         <input type="submit" name="" value="Submit">
-      </select>
+
 
     </form>
 
