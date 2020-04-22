@@ -1,0 +1,12 @@
+/* selected tag{
+property value;
+} */
+
+body{
+  background-color: grey;
+}
+/* This will change color of the entire webpage. */
+div{
+  background-color: blue;
+}
+/* This will only change the color of inside the div */
