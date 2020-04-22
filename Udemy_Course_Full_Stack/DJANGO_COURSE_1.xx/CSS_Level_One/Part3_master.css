@@ -30,14 +30,17 @@
 h3 + ul{
   border: 3px dotted purple;
 }
+/* above is a much faster way to format your borders without doing each individual characteristic at once. */
 
 /*Descendants*/
 li a{
   color: black;
 }
+/* This will make all anchor tags within a list black */
 
 /*Attributes*/
 li a[href="www.npr.org"]{
   color: red;
   border: 5px solid orange;
 }
+/* this will find the anchor with the href "www.npr.org" then put make the text red and place a solid orange border.*/
