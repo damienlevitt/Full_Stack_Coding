@@ -29,6 +29,7 @@
 /*Adjacent sibling: Elements that are next to each other*/
 h3 + ul{
   border: 3px dotted purple;
+  background-color: grey;
 }
 /* above is a much faster way to format your borders without doing each individual characteristic at once. */
 
