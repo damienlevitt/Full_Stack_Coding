@@ -26,7 +26,7 @@ h1{
 }
 
 li{
-  color: rgb(8,84,1);
+  color: rgb(226,100,10);
 }
 /* This will effect all elements within a list.
 For RGB colors you can use google "color picker" to find what values to use. */
@@ -35,3 +35,8 @@ p{
   color: #0895a8;
 }
 /* this changes paragraph text to color from hex value. */
+
+h4{
+  color: rgba(226,100,10, 0.5);
+}
+/* using RBGA allows you to choose opacity of the color. */
