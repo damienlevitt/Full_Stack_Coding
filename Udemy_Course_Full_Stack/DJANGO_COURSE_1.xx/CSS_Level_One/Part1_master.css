@@ -24,3 +24,14 @@ property: value;
 h1{
   color: purple;
 }
+
+li{
+  color: rgb(8,84,1);
+}
+/* This will effect all elements within a list.
+For RGB colors you can use google "color picker" to find what values to use. */
+
+p{
+  color: #0895a8;
+}
+/* this changes paragraph text to color from hex value. */
