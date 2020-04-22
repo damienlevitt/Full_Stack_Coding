@@ -13,18 +13,14 @@ Selected Tag {
 
 /*Colors can be names, or codes*/
 
+/* Basic form for a CSS file is going to be:
+
+selected tag{
+property: value;
+}
+
+*/
+
 h1{
-  color: blue;
-}
-
-li {
-  color: rgb(0,200,0);
-}
-
-p{
-  color: #000000;
-}
-
-h4{
-  color: rgba(13,90,140,0.5)
+  color: purple;
 }
