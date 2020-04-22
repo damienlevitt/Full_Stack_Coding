@@ -2,41 +2,50 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Asessment Test HTML LEVEL 2</title>
+    <title>Our Dealership</title>
   </head>
   <body>
-    <h1>Course Sign Up Page</h1>
+    <h1>Car Dealership Purchase Page</h1>
     <p>Please Note: First Name, Last Name, Password, and Email are required.</p>
-    <form method="get">
+    <form action="thankyou.html" method = "get">
       <label for="firstname">First Name: </label>
-      <input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+      <input id="firstname" type="text" name="" placeholder="First Name" required>
 
       <label for="lastname">Last Name: </label>
-      <input id= "lastname" type="text" name="lastname" placeholder="Last Name" required>
-    </form>
-    <form method="get">
+      <input id= "lastname" type="text" name="" placeholder="Last Name" required>
+
+      <p></p>
+      <!-- This will act as a newline space until we learn styling -->
+
       <label for="email">Email: </label>
-      <input id = "email" type="email" name="email" placeholder="name@email.com" required>
+      <input id = "email" type="email" name="" placeholder="name@email.com" required>
 
       <label for="password">Password: </label>
-      <input id = "password" type="password" name="password" value="" required>
-    </form>
+      <input id = "password" type="password" name="" value="" required>
 
-    <p>Are you over the age of 18?</p>
-    <form>
+
+    <p>Are you interested in this car</p>
+
+    <img src="https://images.unsplash.com/photo-1537740547516-098bdb470e11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="image is no longer available">
+    <p></p>
       <label for="yes">Yes: </label>
-      <input id= "yes"type="radio" name="answer" value="">
+      <input id= "yes"type="radio" name="answer" value="yes">
       <label for="no">No: </label>
-      <input id= "no" type="radio" name="answer" value="">
-    </form>
+      <input id= "no" type="radio" name="answer" value="no">
 
-    <form method="get">
     <p>Do you have a Credit Card or PayPal?</p>
       <select name="Payment">
         <option value="credit">Credit Card</option>
         <option value="paypal">PayPal</option>
       </select>
+
+      <p></p>
+
+      <input type="submit" name="" value="Submit Feedback">
     </form>
-    <input type="submit" name="" value="Submit Feedback">
   </body>
 </html>
+
+<!-- I changed this up to be a car dealership page,
+it's similar to the exam but this looks pretty cool.-->
+<!-- I also added a thank you page that the submit buttom links you too after clicksing submit. -->
