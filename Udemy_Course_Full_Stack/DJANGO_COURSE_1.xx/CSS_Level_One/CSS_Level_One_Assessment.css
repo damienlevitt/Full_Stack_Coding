@@ -28,14 +28,14 @@ h2{
 /*Task # 4
 Make all input boxes have a 2px solid dark red border (use rgb for this)*/
 input{
-  border: 2px solid rgb(f70707);
+  border: 2px solid rgb(144,0,0);
 }
 
 /*Task # 5
 Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
-div + p{
+div p{
   background-color: #f7f707;
 }
 
@@ -53,7 +53,7 @@ There is a textarea element with the id=textblock, give it the following propert
 
 /*Task # 7
 There is a link to Google on the page. Make this link red.*/
-li a[href="www.google.com"]{
+a{
   color: red;
 }
 
@@ -63,7 +63,7 @@ Make elements with the id="itemone" have an overline text-decoration.
 and be the color purple.*/
 #itemone{
   text-decoration: overline;
-  text-decoration-color: purple;
+  color: purple;
 }
 
 /*Task # 9
@@ -80,6 +80,6 @@ a background of blue and a 4px dashed yellow border.*/
 There is a link to Google on the page in the list.
 Can you figure out how to change the color if you click on the link?
 (Hint: Google "css visited") */
-li a:visited[href="www.google.com"]{
+a:visited{
   color: blue;
 }
