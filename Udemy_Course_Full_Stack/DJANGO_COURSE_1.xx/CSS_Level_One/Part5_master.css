@@ -4,11 +4,13 @@
 li{
   color: red;
 }
+/* This will change all elements red. */
 
 .TopItems{
   color: blue;
 }
-
+/* choosing the .topitems class will take precedence over general tag call */
 #two{
   border: 2px solid black;
 }
+/* ids will take precedence over both general tag call and classes. */
