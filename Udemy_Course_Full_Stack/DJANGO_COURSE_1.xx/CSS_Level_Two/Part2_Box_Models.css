@@ -6,11 +6,15 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
   border: 4px solid blue;
 
   width: 25%;
-
+/* sets the border to 25% the window size in realtion to the page size. */
   /*Top,Right, Bottom, Left*/
   margin: 10px 20px 100px 400px;
-
+/* will create margin sizes for the box on page */
+/* calling
+ margin: auto
+ will automatically center box on the page */
   text-align: center;
+  /* will align the text in relation to the box */
 }
 
 #bottom{
@@ -22,4 +26,8 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
   /*margin: auto;*/
 
   padding: 200px;
+  /* adding padding will create space within the box. */
+  /* you can call
+  text-align: center
+  to alight the text to the center of the box within the padding */
 }
