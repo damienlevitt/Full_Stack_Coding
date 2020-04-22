@@ -3,10 +3,24 @@ property value;
 } */
 
 body{
-  background-color: grey;
+  background: url(https://images.unsplash.com/photo-1537740547516-098bdb470e11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60);
+/*background-color: grey;  */
 }
 /* This will change color of the entire webpage. */
 div{
   background-color: blue;
+  border-color: red;
+  border-width: 3px;
+  border-style: double;
 }
 /* This will only change the color of inside the div */
+/* For borders you can specify the width with preselected sizes or enter custom values. */
+
+p{
+  color: yellow;
+}
+/* changes color of the paragraph text. */
+span{
+  background: black;
+}
+/* Changes color of the background of the span. */
