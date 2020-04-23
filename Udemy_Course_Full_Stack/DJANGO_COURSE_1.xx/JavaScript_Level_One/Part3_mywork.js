@@ -1,0 +1,5 @@
+alert("Welcome to the weight converter!")
+var pounds = prompt("Enter a weight in pounds.")
+var kilograms = (pounds * 0.454)
+alert("Conversion is completed." +pounds + " is " + kilograms + " in kilograms!" )
+console.log("Conversion Completed.")
